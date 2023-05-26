@@ -28,7 +28,7 @@ exports.up = async function (knex) {
     .createTable('steps_ingredients', table => {
       table.increments('steps_ing_id')
       table.float('quality').notNullable()
-      table.integer('step_id')
+      table.integer('steps_id')
         .unsigned()
         .notNullable()
         .references('steps_id')

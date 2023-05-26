@@ -1,7 +1,7 @@
 const recipies = [
-    {recipe_name: 'Brocoli Pesto Pasta'},
-    {recipe_name: 'Lemon Chicken'},
-    {recipe_name: 'Salmon en Papillote'},
+    {recipes_name: 'Brocoli Pesto Pasta'},
+    {recipes_name: 'Lemon Chicken'},
+    {recipes_name: 'Salmon en Papillote'},
 ]
 
 const ingredients = [
